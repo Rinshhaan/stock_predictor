@@ -3,6 +3,7 @@ pandas
 numpy
 scikit-learn
 plotly
-ta
+yfinance
 joblib
 prophet
+requests
