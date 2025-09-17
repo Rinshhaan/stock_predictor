@@ -25,7 +25,7 @@ st.set_page_config(page_title="Stock Predictor + News", layout="wide")
 
 # --------- FINNHUB (News) ----------
 # Replace with your Finnhub API key. If empty, the app falls back to a sample.
-FINNHUB_API_KEY = "d3443fhr01qqt8snegsgd3443fhr01qqt8snegt0"  # <-- replace with your real key
+FINNHUB_API_KEY = "YOUR_API_KEY"  # <-- replace with your real key
 FINNHUB_NEWS_URL = f"https://finnhub.io/api/v1/business-insider-news?token={FINNHUB_API_KEY}"
 
 def fetch_finnhub_news(limit=30):
@@ -371,3 +371,4 @@ st.markdown("""
 - **Use this app as one tool among many** — combine technical forecasts, news, risk management, and your own research.
 - For serious backtesting / trading, include transaction costs, slippage, taxes, and a proper risk model.
 """)
+
