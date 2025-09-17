@@ -5,7 +5,7 @@ from datetime import datetime
 st.set_page_config(page_title="Stock News", layout="wide")
 
 # Finnhub API (hardcoded)
-API_KEY = "d3443fhr01qqt8snegsgd3443fhr01qqt8snegt0"
+API_KEY = "YOUR_API_KEY"
 BASE_URL = "https://finnhub.io/api/v1/news?category=general&token=" + API_KEY
 
 def fetch_news():
@@ -32,3 +32,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
